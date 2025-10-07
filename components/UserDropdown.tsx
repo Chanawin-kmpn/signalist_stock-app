@@ -12,7 +12,7 @@ import { Button } from "./ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 import { LogOut } from "lucide-react";
 import NavItem from "./NavItem";
-import { signOut } from "@/lib/actions/auth.action";
+import { signOut } from "@/lib/actions/auth.actions";
 
 const UserDropdown = ({ user }: { user: User }) => {
 	const router = useRouter();
