@@ -3,7 +3,6 @@ import {
 	NEWS_SUMMARY_EMAIL_TEMPLATE,
 	WELCOME_EMAIL_TEMPLATE,
 } from "./templates";
-import { date } from "better-auth";
 
 export const transporter = nodemailer.createTransport({
 	service: "gmail",
